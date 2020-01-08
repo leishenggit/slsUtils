@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for a in `find $1 -type l`
+do
+	stat -L $a >/dev/null 2>/dev/null
+	if [ $? -gt 0 ];then
+		echo "not exist:" $a
+		rm $a
+	fi
+done
