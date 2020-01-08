@@ -1,0 +1,12 @@
+#!/bin/awk -f
+BEGIN{
+	OFS="\t"
+	FS="\t"
+	if(!col) col=1
+	len = 0
+}
+{
+	tmp = length($col)
+	if(tmp>len) {len=tmp; content=$col}
+}
+END{print "column :",col,"max length :",len,"content :",content}

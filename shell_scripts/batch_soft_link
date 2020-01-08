@@ -1,0 +1,32 @@
+#!/bin/bash
+if [ $# -lt 2 ];then
+echo "Need 2 arguments, first is a path; second is the regular expression"
+echo "The script can take 1 optional argument, which is the prefix path to strip"
+echo "Author: Shi Leisheng"
+echo "Date: 2020/1/8"
+echo "Version: 1.1"
+exit 500
+fi
+
+#make soft link
+for f in `find $1 -iname $2`
+do
+	fname=`basename $f`
+	path=`dirname $f`
+	full_path=$path/$fname
+	link=${full_path//\//_}
+	echo $path,$fname,$link
+	ln -fs $full_path $link
+done
+
+#strip path prefix
+if [ $# -eq 3 ] ;then
+	temp=$3
+	omit=${temp//\//_}
+	for f in $2
+	do
+		mv $f ${f/$omit/}
+	done
+fi
+
+
