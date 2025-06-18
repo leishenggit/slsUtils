@@ -1,0 +1,37 @@
+LAML	Acute Myeloid Leukemia	急性髓性白血病	Bone Marrow	骨髓	Whole Blood	全血											
+ACC	Adrenocortical carcinoma	肾上腺皮质癌	Adrenal Gland	肾上腺	Adrenal Gland	肾上腺											
+BLCA	Bladder urothelial carcinoma	膀胱尿路上皮癌	Bladder	膀胱	Bladder	膀胱											
+MESO	Mesothelioma Cancer	间皮瘤癌症		胸，肺													
+LGG	Brain Lower Grade Glioma	脑低级别胶质瘤	Brain	脑	Brain - Amygdala	Brain - Anterior cingulate cortex (BA24)	Brain - Caudate (basal ganglia)	Brain - Cerebellar Hemisphere	Brain - Cerebellum	Brain - Cortex	Brain - Frontal Cortex (BA9)	Brain - Hippocampus	Brain - Hypothalamus	Brain - Nucleus accumbens (basal ganglia)	Brain - Putamen (basal ganglia)	Brain - Spinal cord (cervical c-1)	Brain - Substantia nigra
+BRCA	Breast invasive carcinoma	乳腺浸润癌	Breast	乳房	Breast - Mammary Tissue	乳房 - 乳腺组织											
+CESC	Cervical and endocervical cancers	宫颈癌和子宫颈癌	Uterus	子宫	Uterus	子宫											
+CHOL	Cholangiocarcinoma	胆管癌		胆管													
+COAD	Colon adenocarcinoma	结肠腺癌	Colon	结肠	Colon - Sigmoid	结肠 - 乙状结肠											
+COADREAD	Colorectal adenocarcinoma	结直肠腺癌	Colon	结肠	Colon - Transverse	冒号 - 横向											
+ESCA	Esophageal carcinoma	食道癌	Esophagus	食管	Esophagus - Gastroesophageal Junction	食道 - 胃食管连接											
+GBM	Glioblastoma multiforme	多形性胶质母细胞瘤	brain	脑													
+GBMLGG	Glioma	胶质瘤	brain	脑													
+HNSC	Head and Neck squamous cell carcinoma	头颈部鳞状细胞癌															
+KICH	Kidney Chromophobe	肾色嗜血杆菌	Kidney	肾	Kidney - Cortex	肾 - 皮质											
+KIRC	Kidney renal clear cell carcinoma	肾肾透明细胞癌	Kidney	肾	Kidney - Cortex	肾 - 皮质											
+KIRP	Kidney renal papillary cell carcinoma	肾肾乳头状细胞癌	Kidney	肾	Kidney - Cortex	肾 - 皮质											
+LIHC	Liver hepatocellular carcinoma	肝细胞肝癌	Liver	肝	Liver	肝											
+LUAD	Lung adenocarcinoma	肺腺癌	Lung	肺	Lung	肺											
+LUSC	Lung squamous cell carcinoma	肺鳞状细胞癌	Lung	肺	Lung	肺											
+DLBC	Lymphoid Neoplasm Diffuse Large B-cell Lymphoma	淋巴样肿瘤弥漫性大B细胞淋巴瘤															
+OV	Ovarian serous cystadenocarcinoma	卵巢浆液性囊腺癌	Ovary	子房	Ovary	子房											
+PAAD	Pancreatic adenocarcinoma	胰腺癌	Pancreas	胰腺	Pancreas	胰腺											
+KIPAN	Pan-kidney cohort (KICH+KIRC+KIRP)	泛肾队列（KICH + KIRC + KIRP）	Kidney	肾	Kidney - Cortex	肾 - 皮质											
+PCPG	Pheochromocytoma and Paraganglioma	嗜铬细胞瘤和副神经节瘤		肾上腺，腹膜，腹主动脉													
+PRAD	Prostate adenocarcinoma	前列腺腺癌	Prostate	前列腺	Prostate	前列腺											
+READ	Rectum adenocarcinoma	直肠腺癌		直肠腺													
+SARC	Sarcoma	肉瘤			Skin - Not Sun Exposed (Suprapubic)	皮肤 - 不暴露于阳光下（耻骨上）											
+SKCM	Skin Cutaneous Melanoma	皮肤皮肤黑色素瘤	Skin	皮肤	Skin - Not Sun Exposed (Suprapubic)	皮肤 - 不暴露于阳光下（耻骨上）											
+STAD	Stomach adenocarcinoma	胃腺癌	Stomach	胃	Stomach	胃											
+STES	Stomach and Esophageal carcinoma	胃和食道癌	Stomach Esophagus	胃 食管	Esophagus - Gastroesophageal Junction	食道 - 胃食管连接											
+TGCT	Testicular Germ Cell Tumors	睾丸生殖细胞肿瘤	Testis	睾丸	Testis	睾丸											
+THYM	Thymoma	胸腺瘤		胸腺													
+THCA	Thyroid carcinoma	甲状腺癌	Thyroid	甲状腺	Thyroid	甲状腺											
+UCS	Uterine Carcinosarcoma	子宫癌肉瘤	Uterus	子宫	Uterus	子宫											
+UCEC	Uterine Corpus Endometrial Carcinoma	子宫内膜癌	Uterus	子宫	Uterus	子宫											
+UVM	Uveal Melanoma	葡萄膜黑色素瘤		眼睛													
